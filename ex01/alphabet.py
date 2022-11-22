@@ -17,7 +17,8 @@ def shutudai(alphabet):
 
     #対象文字から欠損文字を2個選択する。(重複なし)
     abs_chars = random.sample(all_chars, num_of_abs_chars)
-    print("欠損文字(デバッグ用)：")
+    print("欠損文字：")
+    #デバック用
     for c in abs_chars:
         print(c, end=" ")
     print()
