@@ -119,11 +119,11 @@ def main():
 
             if gg >=1800:
                 tori_sfc = pg.image.load("fig/8.png")
-                if gg >=1820:
+                if gg >=1810:
                     tori_sfc = pg.transform.scale(tori_sfc, (200, 200))
                     if gg >=1830:
-                        tori_sfc = pg.transform.scale(tori_sfc, (200, 200))
-                        if gg >=1870:
+                        tori_sfc = pg.transform.scale(tori_sfc, (300, 300))
+                        if gg >=1890:
                             return
 
         pg.display.update()
