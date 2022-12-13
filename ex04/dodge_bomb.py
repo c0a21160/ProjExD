@@ -65,6 +65,8 @@ def main():
 
 
     gg = 0
+    #こうかとんがぶつかられた回数の蓄積量
+
     # 練習２
     while True:
         scrn_sfc.blit(pgbg_sfc, pgbg_rct) 
