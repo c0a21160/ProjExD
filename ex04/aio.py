@@ -115,15 +115,15 @@ def main():
             tori_sfc = pg.image.load("fig/7.png")
             tori_sfc = pg.transform.scale(tori_sfc, (100, 100))
 
-            gg +=20
+            gg +=50
 
-            if gg >=1800:
+            if gg >=900:
                 tori_sfc = pg.image.load("fig/8.png")
                 if gg >=1810:
-                    tori_sfc = pg.transform.scale(tori_sfc, (200, 200))
-                    if gg >=1830:
-                        tori_sfc = pg.transform.scale(tori_sfc, (300, 300))
-                        if gg >=1890:
+                    tori_sfc = pg.transform.scale(tori_sfc, (400, 400))
+                    if gg >=1880:
+                        tori_sfc = pg.transform.scale(tori_sfc, (600, 600))
+                        if gg >=1070:
                             return
 
         pg.display.update()
