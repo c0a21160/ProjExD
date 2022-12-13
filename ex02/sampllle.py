@@ -8,18 +8,32 @@ def button_click(event):
 
 
 root = tk.Tk()
-root.title("おためしか")
+root.title("難易度選択")
 root.geometry("500x200")
-button = tk.Button(root,text="押すな")
+
+button2 = tk.Button(root,text="簡単")
+button2.bind("<1>",button_click)
+button2.pack()
+
+
+
+button = tk.Button(root,text="普通")
 button.bind("<1>",button_click)
 button.pack()
 
-
 entry = tk.Entry(root,width=30)
-entry.insert(tk.END,"ふががががぴよ")
+entry.insert(tk.END,"(^^")
+
+button2 = tk.Button(root,text="難しい")
+button2.bind("<1>",button_click)
+button2.pack()
+
+
+
+
+
+
 
 entry.pack()
 
-
-tkm.showinfo("asasasasa")
 root.mainloop()

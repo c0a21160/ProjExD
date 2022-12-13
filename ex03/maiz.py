@@ -13,7 +13,7 @@ def key_up(event):
 
 def main_proc():
     global cx, cy, mx, my
-   # if key == "Up": my -= 1
+    if key == "Up": my -= 1
     if key == "Down": my += 1
     if key == "Left": mx -= 1
     if key == "Right": mx += 1
