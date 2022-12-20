@@ -91,8 +91,8 @@ def main():
 
     # 練習５
     bombs = []
-    colors = ["red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red"]
-    for i in range(20):
+    colors = ["red","orange","green","pink","green","blue","red","white","black","brown","purple","red","red","green","blue","black","white","blue","red","violet","brown","brown"]
+    for i in range(22):
         color = colors[i]
         vx = random.choice([-1,+1])
         vy = random.choice([-1,+1])
