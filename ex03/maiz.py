@@ -18,15 +18,15 @@ def main_proc():
     if key == "Left": mx -= 1
     if key == "Right": mx += 1
     if maze_lst[mx][my] == 1: # 移動先が壁だったらa
-        #if key == "Up": my += 3
-        if key == "Down": my -= 3
+        if key == "Up": my += 1
+        if key == "Down": my -= 1
         if key == "Left": mx += 1
         if key == "Right": mx -= 1   
-    if maze_lst[mx][my] != 1:
-        if maze_lst[mx][my+1] != 1:
-            #if key == "Down": my += 1
-            if key == "Left": my += 1
-            if key == "Right": my += 1 
+    #if maze_lst[mx][my] != 1:
+     #   if maze_lst[mx][my+1] != 1:
+      #      if key == "Down": my += 1
+       #     if key == "Left": my += 1
+        #    if key == "Right": my += 1 
 
        
     
